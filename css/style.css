@@ -1,0 +1,12 @@
+/* h1 heading */
+.heading {
+    color:pink;
+    background-color: rgb(34, 34, 160);
+    border:3px solid red;
+    text-align: center;
+}
+.text{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
