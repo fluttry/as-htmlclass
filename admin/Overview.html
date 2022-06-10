@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Dashboard</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="/admin/dashboard.css">
+</head>
+<body>
+<!--Top navbar start here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!--Top navbar end here-->
+
+<!-- Dashboard Body starts -->
+<div class="container-fluid">
+  <div class="row">
+     <!-- Sidebar menu-->
+<div></div>
+     <nav class="col-md-3 col-lg-2 d-md-block bg-dark h-all">
+      <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                  <a class="nav-link active" href="/dashboard.html">
+                      Dashboard
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/blank-dashboard.html">
+                      Blank Dashboard
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/routine.html">
+                      Class Routine
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+  
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <!-- Main Content -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </main>
+  </div>
+</div>
+<!-- Dashboard Body ends -->
+
+    <script type="javascript" src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
